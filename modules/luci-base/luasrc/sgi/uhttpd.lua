@@ -18,7 +18,7 @@ function handle_request(env)
 		SCRIPT_NAME     = env.SCRIPT_NAME:gsub("/+$", ""),
 		SCRIPT_FILENAME = env.SCRIPT_NAME,
 		SERVER_PROTOCOL = env.SERVER_PROTOCOL,
-		QUERY_STRING    = env.QUERY_STRING
+		QUERY_STRING    = env.QUERY_STRING,
 		DOCUMENT_ROOT   = env.DOCUMENT_ROOT,
 		HTTPS           = env.HTTPS,
 		REDIRECT_STATUS = env.REDIRECT_STATUS,
